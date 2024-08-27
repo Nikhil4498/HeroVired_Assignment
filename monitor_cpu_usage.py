@@ -16,7 +16,6 @@ def monitor_cpu_usage(threshold=80):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Start monitoring with a threshold of 80%
 monitor_cpu_usage(threshold=80)
 
 
